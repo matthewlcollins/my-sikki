@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function checkPassword() {
         if (inputBox.value.toLowerCase() === correctPassword) {
-            window.location.href = "index.html"; // Change to your target page
+            window.location.href = "main.html"; // Change to your target page
         } else {
             alert("Incorrect password. Please try again.");
         }
