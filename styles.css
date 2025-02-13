@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 body {
@@ -114,7 +115,7 @@ ul {
     color: #4e4d4d;
 }
 
-.loginmain {
+.main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,3 +137,47 @@ input {
     font-weight: 600;
     color: #4e4d4d;
 }
+
+.guests {
+    height: 600px;
+    width: 800px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #4e4d4d;
+}
+
+.guestfooter {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+}
+
+.guestheader {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+}
+
